@@ -1,0 +1,468 @@
+-------- HEADER --------
+VERSION 2
+JVM_STARTED 1555398978429
+LOG_STARTED 1555398978511
+-------- EOF HEADER --------
+2019-04-16 15:16:18.516 INFO  Started logging for JRebel 2019.1.0, build 201903251506 (07be870b02413ad717101cd42012b8b021c87f97)
+2019-04-16 15:16:18.536 INFO  [0] [Core] Started logging in thread: main daemon=false
+2019-04-16 15:16:18.537 INFO  [0] [Core] Rebel properties loaded from /home/dabai/.jrebel/jrebel.properties:
+rebel.ide.offline_lease_duration=12
+rebel.license.email=tom@qq.com
+rebel.license.url=http://139.199.89.239:1008/88414687-3b91-4286-89ba-2dc813b107ce
+rebel.log=info
+rebel.log.file=C:\Users\lihanlin\.jrebel\jrebel.log
+rebel.preferred.license=1
+rebel.properties.version=2
+rebel.stats.time=1
+
+2019-04-16 15:16:18.537 INFO  [0] [Startup] Using deferred init
+2019-04-16 15:16:18.538 DEBUG [0] [Core-Logger] Calculated maximum logging level after logger instance creation
+2019-04-16 15:16:18.538 INFO  [0] [Core] System properties found:
+awt.toolkit=sun.awt.X11.XToolkit
+file.encoding=UTF-8
+file.encoding.pkg=sun.io
+file.separator=/
+java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+java.awt.printerjob=sun.print.PSPrinterJob
+java.class.path=/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/charsets.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/deploy.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/cldrdata.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/dnsns.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/jaccess.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/jfxrt.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/localedata.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/nashorn.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/sunec.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/sunjce_provider.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/sunpkcs11.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/zipfs.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/javaws.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/jce.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/jfr.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/jfxswt.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/jsse.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/management-agent.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/plugin.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/resources.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/rt.jar:/media/dabai/000BAD420009625A/study/deepin/java/demos/demo7/target/classes:/media/dabai/000BAD420009625A/maven/repository/io/netty/netty-all/4.1.34.Final/netty-all-4.1.34.Final.jar:/home/dabai/Desktop/java/IDEA/idea-IU-183.4886.37/lib/idea_rt.jar
+java.class.version=52.0
+java.endorsed.dirs=/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/endorsed
+java.ext.dirs=/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext:/usr/java/packages/lib/ext
+java.home=/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre
+java.io.tmpdir=/tmp
+java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.runtime.name=Java(TM) SE Runtime Environment
+java.runtime.version=1.8.0_181-b13
+java.specification.name=Java Platform API Specification
+java.specification.vendor=Oracle Corporation
+java.specification.version=1.8
+java.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+java.version=1.8.0_181
+java.vm.info=mixed mode
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.8
+java.vm.vendor=Oracle Corporation
+java.vm.version=25.181-b13
+line.separator=
+
+os.arch=amd64
+os.name=Linux
+os.version=4.15.0-29deepin-generic
+path.separator=:
+rebel.base=/home/dabai/.jrebel
+rebel.env.ide=intellij
+rebel.env.ide.plugin.version=2019.1.0
+rebel.env.ide.product=IU
+rebel.env.ide.version=2019.1
+rebel.native.image=/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/lib/libjrebel64.so
+rebel.notification.url=http://localhost:17434
+sun.arch.data.model=64
+sun.boot.class.path=/home/dabai/.jrebel/bootcache/jrebel-bootstrap-d77543355e0ceb5c0ba8762654eef79b.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/resources.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/rt.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/sunrsasign.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/jsse.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/jce.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/charsets.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/jfr.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/classes:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar
+sun.boot.library.path=/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/amd64
+sun.cpu.endian=little
+sun.cpu.isalist=
+sun.desktop=gnome
+sun.io.unicode.encoding=UnicodeLittle
+sun.java.command=com.netty.demo.demo2.server.Server
+sun.java.launcher=SUN_STANDARD
+sun.jnu.encoding=UTF-8
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+sun.os.patch.level=unknown
+user.country=CN
+user.dir=/media/dabai/000BAD420009625A/study/deepin/java/demos/demo7
+user.home=/home/dabai
+user.language=zh
+user.name=dabai
+user.timezone=Asia/Shanghai
+
+2019-04-16 15:16:18.542 INFO  [0] [Core] Using user temp directory : /tmp
+2019-04-16 15:16:18.551 INFO  [0] [Core-SDK] Using user temp directory : /tmp/jrebel-temp/336ea9f8
+2019-04-16 15:16:18.552 INFO  [0] [Core-SDK] Using user temp directory : /tmp/jrebel-temp/ver-c62900d7
+2019-04-16 15:16:18.553 INFO  [0] [Core-SDK] Found 1 locks from /tmp/jrebel-temp/index.jrl
+2019-04-16 15:16:18.553 INFO  [0] [Core-SDK] Lock /tmp/jrebel-temp/index_d8ee5e19.jrl not found, remove
+2019-04-16 15:16:18.556 INFO  [0] [Core-SDK] Using user temp directory : /tmp/jrebel-temp/cbp-cache-bbe900b4
+2019-04-16 15:16:18.557 INFO  [0] [CBP-Cache] Using cache ID: JRebel|2019.1.0|201903251506
+2019-04-16 15:16:18.557 INFO  [0] [CBP-Cache] Using cache dir: /tmp/jrebel-temp/cbp-cache-bbe900b4
+2019-04-16 15:16:18.558 INFO  [0] [ClassCache] Creating new class cache
+2019-04-16 15:16:18.558 INFO  [0] [ClassCache] Used index size: 0 and data size: 1
+2019-04-16 15:16:18.603 INFO  [1] [Core] Started logging in thread: pool-2-thread-2 daemon=false
+2019-04-16 15:16:18.603 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.log4j2.Log4j2Plugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/log4j2-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.606 INFO  [2] [Core] Started logging in thread: pool-2-thread-3 daemon=false
+2019-04-16 15:16:18.607 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.GrailsCliPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/grails-cli-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.617 INFO  [3] [Core] Started logging in thread: pool-2-thread-4 daemon=false
+2019-04-16 15:16:18.618 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.hibernate5.HibernatePlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/hibernate5-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.626 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.restlet.RestletPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/restlet-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.626 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.integration.stripes.StripesPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/stripes-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.627 INFO  [4] [Core] Started logging in thread: pool-2-thread-1 daemon=false
+2019-04-16 15:16:18.636 INFO  [4] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.weld.WeldPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/weld-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.637 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.struts2.Struts2Plugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/struts2-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.637 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.wildfly.undertow.WildFlyPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/wildfly-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.638 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.jaxb.JAXBPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/jaxb-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.641 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.grails3.Grails3Plugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/grails3-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.644 INFO  [4] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.integration.jasypt.JasyptPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/jasypt-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.645 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.integration.atg.AtgPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/atg-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.646 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.groovy.GroovyPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/groovy-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.655 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.weld2.websphere.Weld2WebspherePlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/weld2-websphere-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.659 INFO  [4] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.wicket.WicketPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/wicket-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.662 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.spring.SpringPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/spring-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.664 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.zk.ZKPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/zk-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.672 INFO  [4] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.felix.FelixPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/felix-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.677 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.jaxb.endorsed.JAXBEndorsedPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/jaxb-endorsed-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.677 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.tapestry4.Tapestry4Plugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/tapestry4-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.682 INFO  [4] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.jackson2.Jackson2Plugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/jackson2-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.692 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.websphere.WebspherePlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/websphere-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.692 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.integration.toplink.TopLinkPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/toplink-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.697 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.adf.core.AdfCorePlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/adf-core-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.702 INFO  [4] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.integration.axis2.Axis2Plugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/axis2-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.708 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.bval.BValPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/bval-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.715 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.integration.toplink.spring.TopLinkSpringPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/toplink-spring-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.720 INFO  [4] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.mybatis.MyBatisPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/mybatis-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.735 INFO  [4] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.hybris.HybrisPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/hybris-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.741 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.vaadin.cdiutils.VaadinCdiutilsPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/vaadin-cdiutils-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.742 INFO  [4] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.solder.SolderPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/solder-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.747 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.infinispan.InfinispanPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/infinispan-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.751 INFO  [4] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.thorntail.ThorntailPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/thorntail-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.752 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.tapestry5.Tapestry5Plugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/tapestry5-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.759 INFO  [4] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.eclipse.EclipsePlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/eclipse-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.762 INFO  [4] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.spring.metro.SpringMetroPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/spring-metro-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.766 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.spring.jms.SpringJmsPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/spring-jms-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.767 INFO  [2] [Core] Found dependent plugin 'com.zeroturnaround.javarebel.guice.GuicePlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/guice-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.773 INFO  [4] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.scalate.ScalatePlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/scalate-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.790 INFO  [4] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.integration.tiles1.Tiles1Plugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/tiles1-struts-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.791 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.jaxb.ibm.JAXBIbmPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/jaxb-ibm-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.792 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.integration.logback.LogbackPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/logback-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.793 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.servlet.ServletIntegrationPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/jr-servlet-integration-2019.1.0.jar
+2019-04-16 15:16:18.798 INFO  [4] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.ibatis.IbatisPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/ibatis-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.803 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.integration.spring.integration.SpringIntegrationPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/spring-integration-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.805 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.camel.CamelPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/camel-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.816 INFO  [4] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.picketlink.PicketlinkPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/picketlink-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.817 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.adf.faces.AdfFacesPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/adf-faces-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.829 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.fileservlet.FileServletPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/fileservlet-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.837 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.cxf.CXFPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/cxf-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.837 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.weld2.Weld2Plugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/weld2-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.840 INFO  [4] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.jboss7.Jboss7Plugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/jboss7-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.855 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.stats.id.container.ContainerIdentifierPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/jr-container-identifier-2019.1.0.jar
+2019-04-16 15:16:18.857 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.undertow.UndertowPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/undertow-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.860 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.hk2.HK2Plugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/hk2-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.867 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.integration.click.ClickPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/click-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.868 INFO  [4] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.spring.webflow.SpringWebflowPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/spring-webflow-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.873 INFO  [4] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.spring.core.SpringCorePlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/spring-core-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.878 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.integration.spring.security.SpringSecurityPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/spring-security-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.879 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.equinox.EquinoxPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/equinox-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.882 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.log4j.Log4jPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/log4j-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.882 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.jetty.JettyPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/jetty-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.882 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.servlet.undertow.UndertowServletPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/undertow-servlet-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.885 INFO  [4] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.jruby.JRubyPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/jruby-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.892 INFO  [4] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.magnolia.MagnoliaPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/magnolia-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.893 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.weld2.glassfish.Weld2GlassfishPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/weld2-glassfish-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.893 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.integration.tiles2.Tiles2Plugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/tiles2-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.894 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.spring.boot.SpringBootPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/spring-boot-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.906 INFO  [4] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.intellij.FSNotifyPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/fsnotify-intellij-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.906 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.seamwicket.SeamWicketPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/seam-wicket-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.907 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.seam.SeamPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/seam-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.909 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.jasper.LiferayJasperPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/liferay-jasper-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.916 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.springplugin.SpringPluginPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/spring-plugin-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.919 INFO  [4] [Exec] exec: /bin/bash -c ulimit -n
+2019-04-16 15:16:18.921 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.spring.aop.SpringAopPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/spring-aop-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.925 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.liferay.LiferayStatusPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/liferay-status-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.930 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.captaincasa.CaptainCasaPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/captaincasa-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.936 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.struts.Struts1Plugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/struts1-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.940 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.jasper.JasperPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/jasper-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.951 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.axon.AxonPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/axon-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.951 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.springfox.SpringfoxPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/springfox-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.953 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.integration.eclipselinkmoxy.EclipseLinkMOXyPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/eclipselinkmoxy-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.957 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.jackson.JacksonPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/jackson-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.959 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.lift.LiftPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/lift-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.962 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.velocity.VelocityPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/velocity-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.964 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.prettyfaces.PrettyfacesPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/prettyfaces-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.964 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.jaxb.java6.JAXBJava6Plugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/jaxb-java6-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.973 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.mojarra.MojarraPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/mojarra-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.981 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.integration.axis2.was.Axis2WasPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/axis2-was-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.986 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.jbossaop.JBossAOPPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/jbossaop-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.992 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.spring.reactive.SpringWebFluxPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/spring-webflux-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.992 INFO  [1] [Core] Found dependent plugin 'com.zeroturnaround.javarebel.aspectj.AspectJPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/aspectj-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:18.994 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.metro.MetroPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/metro-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.005 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.integration.gwt.GwtPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/gwt-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.006 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.spring.actuator.SpringBootActuatorPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/spring-boot-actuator-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.008 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.remoting.RootRemotingPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/jr-remoting-root-2019.1.0.jar
+2019-04-16 15:16:19.015 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.integration.springdata.SpringDataPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/spring-data-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.017 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.hibernate.HibernatePlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/hibernate-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.017 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.remoting.RemotingPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/jr-remoting-2019.1.0.jar
+2019-04-16 15:16:19.025 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.integration.eclipselink.EclipseLinkPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/eclipselink-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.029 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.grails2.Grails2Plugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/grails2-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.033 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.websphere.WebsphereJAXRS2Plugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/websphere-jaxrs2-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.054 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.glassfish.GlassFishPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/glassfish-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.055 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.ebean.EbeanPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/ebean-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.059 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.vaadin.VaadinPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/vaadin-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.063 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.gemini.blueprint.GeminiBlueprintPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/gemini-blueprint-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.064 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.switchyard.SwitchYardPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/switchyard-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.074 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.jersey2.Jersey2Plugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/jersey2-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.076 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.wink.WinkPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/wink-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.078 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.spring.SpringMvcPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/spring-mvc-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.084 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.integration.amazon.AmazonPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/amazon-uitoolkit-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.085 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.integration.seam3.Seam3Plugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/seam3-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.086 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.spring.oxm.SpringOxmPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/spring-oxm-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.092 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.myfaces.MyFacesPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/myfaces-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.096 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.catalina.CatalinaPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/catalina-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.097 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.weblogic.WeblogicPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/weblogic-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.106 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.springws.SpringWSPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/spring-ws-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.107 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.spring.SpringWebPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/spring-web-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.118 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.spring.beans.SpringBeansPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/spring-beans-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.119 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.deltaspike.DeltaspikePlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/deltaspike-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.120 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.facelets.FaceletsPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/facelets-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.120 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.resteasy.ResteasyPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/resteasy-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.126 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.integration.openjpa.OpenJPAPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/openjpa-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.131 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.jersey.JerseyPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/jersey-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.133 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.thymeleaf.ThymeleafPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/thymeleaf-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.135 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.vraptor.VRaptorPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/vraptor-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.137 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.resteasy.spring.RESTEasySpringPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/resteasy-spring-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.147 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.mustache.MustachePlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/mustache-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.147 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.hibernate.validator.HibernateValidatorPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/hibernate-validator-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.155 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.spring.orm.SpringOrmPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/spring-orm-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.157 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.integration.dozer.DozerPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/dozer-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.160 INFO  [3] [Core] Found dependent plugin 'org.zeroturnaround.javarebel.jboss.JbossPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/jboss-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.170 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.primefaces.PrimefacesPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/primefaces-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.175 INFO  [1] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.openwebbeans.OpenWebBeansPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/openwebbeans-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.176 INFO  [2] [Core] Found dependent plugin 'org.zeroturnaround.jrebel.liferay.LiferayPlugin' from jar:file:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar!/plugins/liferay-jr-plugin-2019.1.0.jar
+2019-04-16 15:16:19.373 INFO  [4] [Exec] Result: 0
+2019-04-16 15:16:19.374 INFO  [4] [Exec] Message: 1048576
+2019-04-16 15:16:19.375 INFO  [4] [IntelliJFSNotify] Registering IntelliJ IDE FSNotify
+2019-04-16 15:16:19.386 INFO  [5] [Core] Started logging in thread: pool-1-thread-2 daemon=false
+2019-04-16 15:16:19.386 INFO  [5] [Core-SDK] Starting fs monitor rebel.fsnotify.intellij in order 1/1 with priority 100
+2019-04-16 15:16:19.386 INFO  [5] [IntelliJFSNotify] Using old executable from /tmp/jrebel-temp/ver-c62900d7/fsnotifier64
+2019-04-16 15:16:19.392 INFO  [5] [IntelliJFSNotify] Starting file watcher: /tmp/jrebel-temp/ver-c62900d7/fsnotifier64
+2019-04-16 15:16:19.399 INFO  [5] [IntelliJFSNotify] Process: java.lang.UNIXProcess@4d7fc87a
+2019-04-16 15:16:19.402 INFO  [5] [IntelliJFSNotify] IntelliJ Native file watcher is operational.
+2019-04-16 15:16:19.446 INFO  [0] [NativeMess] Mess wrapper not detected!
+2019-04-16 15:16:19.446 INFO  [0] [Core-SDK] Using user temp directory : /tmp/jrebel-temp/classcache--1063681808
+2019-04-16 15:16:19.447 INFO  [0] [ClassCache] Used index size: 0 and data size: 1
+2019-04-16 15:16:19.448 INFO  [0] [ClassCache] Using class definition cache from /tmp/jrebel-temp/classcache--1063681808
+2019-04-16 15:16:19.484 DEBUG [0] [Core-Logger] Calculated maximum logging level after logger instance creation
+2019-04-16 15:16:19.489 INFO  [0] [ReTransform] Initializing retransformation of 'com.zeroturnaround.jrebelbase.facade.av'
+2019-04-16 15:16:19.493 INFO  [0] [ReTransform] Completed retransformation of 'com.zeroturnaround.jrebelbase.facade.av'
+2019-04-16 15:16:19.502 INFO  [0] [ReTransform] Initializing retransformation of 'com.zeroturnaround.jrebelbase.facade.ap'
+2019-04-16 15:16:19.516 INFO  [0] [ReTransform] Completed retransformation of 'com.zeroturnaround.jrebelbase.facade.ap'
+2019-04-16 15:16:19.517 INFO  [0] [ReTransform] Initializing retransformation of 'com.zeroturnaround.jrebelbase.facade.a'
+2019-04-16 15:16:19.521 INFO  [0] [ReTransform] Completed retransformation of 'com.zeroturnaround.jrebelbase.facade.a'
+2019-04-16 15:16:19.530 INFO  [0] [ReTransform] Initializing retransformation of 'com.zeroturnaround.jrebelbase.l'
+2019-04-16 15:16:19.533 INFO  [0] [ReTransform] Completed retransformation of 'com.zeroturnaround.jrebelbase.l'
+2019-04-16 15:16:19.541 INFO  [0] [ReTransform] Initializing retransformation of 'com.zeroturnaround.jrebelbase.facade.h'
+2019-04-16 15:16:19.548 INFO  [0] [ReTransform] Completed retransformation of 'com.zeroturnaround.jrebelbase.facade.h'
+2019-04-16 15:16:19.555 INFO  [0] [ReTransform] Initializing retransformation of 'com.zeroturnaround.jrebelbase.facade.g'
+2019-04-16 15:16:19.556 INFO  [0] [ReTransform] Completed retransformation of 'com.zeroturnaround.jrebelbase.facade.g'
+2019-04-16 15:16:19.562 INFO  [0] [ReTransform] Initializing retransformation of 'com.zeroturnaround.jrebelbase.facade.i'
+2019-04-16 15:16:19.565 INFO  [0] [ReTransform] Completed retransformation of 'com.zeroturnaround.jrebelbase.facade.i'
+2019-04-16 15:16:19.584 INFO  [0] [Core-SDK] Added exclude filter for 'sun.misc.Launcher$ExtClassLoader'
+2019-04-16 15:16:19.584 INFO  [0] [Core-SDK] Added exclude filter for 'jdk.internal.internal.ClassLoaders$PlatformClassLoader'
+2019-04-16 15:16:19.585 INFO  [0] [Core-SDK] Added exclude filter for 'jdk.internal.internal.ClassLoaders$BootClassLoader'
+2019-04-16 15:16:19.585 INFO  [0] [Core-SDK] Added include managed filter com.zeroturnaround.javarebel.ie@3b07d329
+2019-04-16 15:16:19.586 INFO  [0] [Core-SDK] Added exclude managed filter com.zeroturnaround.javarebel.ig@41629346
+2019-04-16 15:16:19.586 INFO  [0] [Core-SDK] Added exclude managed filter com.zeroturnaround.javarebel.ih@404b9385
+2019-04-16 15:16:19.897 INFO  [0] [Core] System class loader hierarchy:
+2019-04-16 15:16:19.898 INFO  [0] [Core] sun.misc.Launcher$AppClassLoader@18b4aac2 URLs: [file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/charsets.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/deploy.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/cldrdata.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/dnsns.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/jaccess.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/jfxrt.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/localedata.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/nashorn.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/sunec.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/sunjce_provider.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/sunpkcs11.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/zipfs.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/javaws.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/jce.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/jfr.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/jfxswt.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/jsse.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/management-agent.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/plugin.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/resources.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/rt.jar, file:/media/dabai/000BAD420009625A/study/deepin/java/demos/demo7/target/classes/, file:/media/dabai/000BAD420009625A/maven/repository/io/netty/netty-all/4.1.34.Final/netty-all-4.1.34.Final.jar, file:/home/dabai/Desktop/java/IDEA/idea-IU-183.4886.37/lib/idea_rt.jar]
+2019-04-16 15:16:19.898 INFO  [0] [Core] sun.misc.Launcher$AppClassLoader@18b4aac2 parent: sun.misc.Launcher$ExtClassLoader@5e2de80c
+2019-04-16 15:16:19.898 INFO  [0] [Core] sun.misc.Launcher$ExtClassLoader@5e2de80c URLs: [file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/jfxrt.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/zipfs.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/localedata.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/dnsns.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/jaccess.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/nashorn.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/cldrdata.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/sunjce_provider.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/sunpkcs11.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/sunec.jar]
+2019-04-16 15:16:19.901 INFO  [0] [Core] Removing '/home/dabai/.jrebel/bootcache/jrebel-bootstrap-d77543355e0ceb5c0ba8762654eef79b.jar' from sun.boot.class.path, new value is /home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/resources.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/rt.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/sunrsasign.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/jsse.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/jce.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/charsets.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/jfr.jar:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/classes:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar
+2019-04-16 15:16:19.932 INFO  [0] [Licensing] Current installation GUID is HPG3CwAF1ksVFzKLfb8p2D2B4QMmT6M8JE/ZD43c2R4=
+2019-04-16 15:16:19.941 DEBUG [0] [Core-Logger] Calculated maximum logging level after logger instance creation
+2019-04-16 15:16:19.941 INFO  [0] [Core-SDK] Class 'java/util/concurrent/atomic/AtomicReference' processed by 'com.zeroturnaround.javarebel.aeq@21b2e768'.
+2019-04-16 15:16:19.961 INFO  [0] [Core-Stat] Statistics initialized in 12 ms
+2019-04-16 15:16:20.466 INFO  [0] [Core-SDK] Added reload listener com.zeroturnaround.javarebel.gmq@544630b7 for all classes
+2019-04-16 15:16:20.469 INFO  [0] [Core-SDK] Class loader 'sun.misc.Launcher$ExtClassLoader@5e2de80c' exclude by com.zeroturnaround.javarebel.ak@1095f122
+2019-04-16 15:16:20.936 DEBUG [0] [Core-Logger] Calculated maximum logging level after logger instance creation
+2019-04-16 15:16:20.937 INFO  [0] [Core] Rebel properties loaded from /home/dabai/.jrebel/jrebel.properties:
+rebel.ide.offline_lease_duration=12
+rebel.license.email=tom@qq.com
+rebel.license.url=http://139.199.89.239:1008/88414687-3b91-4286-89ba-2dc813b107ce
+rebel.log=info
+rebel.log.file=C:\Users\lihanlin\.jrebel\jrebel.log
+rebel.preferred.license=1
+rebel.properties.version=2
+rebel.stats.time=1
+
+2019-04-16 15:16:20.978 INFO  [0] [o] Using initializer for proxy creations: ProxyInitializerImpl{CORE instance}
+2019-04-16 15:16:20.996 INFO  [0] [Core-SDK] Added reload listener com.zeroturnaround.javarebel.tt@3eb3232b for all classes
+2019-04-16 15:16:20.996 INFO  [0] [Licensing] Using asynchronous license initialization.
+2019-04-16 15:16:21.001 INFO  [0] [Core-SDK] Added global request listener com.zeroturnaround.javarebel.wp@69cd1085
+2019-04-16 15:16:21.002 INFO  [0] [Core-SDK] Added global request listener com.zeroturnaround.javarebel.wb@60bb7995
+2019-04-16 15:16:21.005 INFO  [0] [ServiceRequestIntegration] Added service request listener com.zeroturnaround.javarebel.wc@34c70b5e
+2019-04-16 15:16:21.006 INFO  [0] [Core] Rebel runtime under 'sun.misc.Launcher$AppClassLoader@18b4aac2' created.
+2019-04-16 15:16:21.013 INFO  [0] [Core] sun.misc.Launcher$AppClassLoader@18b4aac2 is using native source com.zeroturnaround.javarebel.yi@75156240
+2019-04-16 15:16:21.017 INFO  [0] [Core] sun.misc.Launcher$AppClassLoader@18b4aac2 URLs: [file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/charsets.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/deploy.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/cldrdata.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/dnsns.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/jaccess.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/jfxrt.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/localedata.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/nashorn.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/sunec.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/sunjce_provider.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/sunpkcs11.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/ext/zipfs.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/javaws.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/jce.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/jfr.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/jfxswt.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/jsse.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/management-agent.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/plugin.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/resources.jar, file:/home/dabai/Desktop/java/JDK/jdk1.8.0_181/jre/lib/rt.jar, file:/media/dabai/000BAD420009625A/study/deepin/java/demos/demo7/target/classes/, file:/media/dabai/000BAD420009625A/maven/repository/io/netty/netty-all/4.1.34.Final/netty-all-4.1.34.Final.jar, file:/home/dabai/Desktop/java/IDEA/idea-IU-183.4886.37/lib/idea_rt.jar]
+2019-04-16 15:16:21.018 INFO  [0] [Core] sun.misc.Launcher$AppClassLoader@18b4aac2 parents: sun.misc.Launcher$ExtClassLoader@5e2de80c
+2019-04-16 15:16:21.070 INFO  [6] [Core] Started logging in thread: rebel-init-licensing daemon=true
+2019-04-16 15:16:21.070 INFO  [6] [Licensing] Trying remoting licensing ..
+2019-04-16 15:16:21.071 INFO  [6] [Licensing]  --> This licensing source didn't find valid licensing
+2019-04-16 15:16:21.072 INFO  [6] [Licensing] Trying licenseServer licensing
+2019-04-16 15:16:21.077 INFO  [6] [Licensing-LS] Creating new http with proxy: ProxySelector{validatorTimeout=5000, theChosenOne=null, source=AGENT_LICENSING}
+2019-04-16 15:16:21.098 INFO  [6] [Licensing-LS] Created new LicenseServer client: com.zeroturnaround.javarebel.mj@4cfce64[serverRootUrl=http://139.199.89.239:1008,token=88414687-3b91-4286-89ba-2dc813b107ce,installationGuid=HPG3CwAF1ksVFzKLfb8p2D2B4QMmT6M8JE/ZD43c2R4=]
+2019-04-16 15:16:21.280 INFO  [6] [Licensing-LS] Lease : com.zeroturnaround.javarebel.lt@596e8581[leaseId=1,offline=true,clientRandomness=H+oXAPBKepQ=,serverRandomness=H2ulzLlh7E0=,validFrom=Tue Apr 16 15:15:43 CST 2019,validUntil=Sun Oct 13 15:15:43 CST 2019,serverGuid=a1b4aea8-b031-4302-b602-670a990272cb,serverVersion=3.2.4,zeroIds=[],seatPoolType=standalone,evaluationLicense=false]
+2019-04-16 15:16:21.284 INFO  [6] [Banner] Now: Tue Apr 16 15:16:21 CST 2019
+2019-04-16 15:16:21.285 INFO  [6] [Banner]  Starting logging to file: /media/dabai/000BAD420009625A/study/deepin/java/demos/demo7/C:\Users\lihanlin\.jrebel\jrebel.log
+2019-04-16 15:16:21.287 INFO  [6] [Banner]  
+2019-04-16 15:16:21.288 INFO  [6] [Banner]  #############################################################
+2019-04-16 15:16:21.289 INFO  [6] [Banner]  
+2019-04-16 15:16:21.290 INFO  [6] [Banner]  JRebel Agent 2019.1.0 (201903251506)
+2019-04-16 15:16:21.291 INFO  [6] [Banner]  (c) Copyright 2007-2019 Rogue Wave Software, Inc.
+2019-04-16 15:16:21.306 INFO  [6] [Banner]  
+2019-04-16 15:16:21.307 INFO  [6] [Banner]  Over the last 30 days JRebel prevented
+2019-04-16 15:16:21.308 INFO  [6] [Banner]  at least 0 redeploys/restarts saving you about 0 hours.
+2019-04-16 15:16:21.309 INFO  [6] [Banner]  
+2019-04-16 15:16:21.309 INFO  [6] [Banner]  Over the last 221 days JRebel prevented
+2019-04-16 15:16:21.311 INFO  [6] [Banner]  at least 353 redeploys/restarts saving you about 0.1 hours.
+2019-04-16 15:16:21.313 INFO  [6] [Banner]  
+2019-04-16 15:16:21.313 INFO  [6] [Banner]  License acquired from License Server: http://139.199.89.239:1008
+2019-04-16 15:16:21.314 INFO  [6] [Banner]  
+2019-04-16 15:16:21.314 INFO  [6] [Banner]  Licensed to dabai.
+2019-04-16 15:16:21.315 INFO  [6] [Banner]  
+2019-04-16 15:16:21.317 INFO  [6] [Banner]  You are using an offline license.
+2019-04-16 15:16:21.322 INFO  [6] [Banner]  
+2019-04-16 15:16:21.323 INFO  [6] [Banner]  
+2019-04-16 15:16:21.323 INFO  [6] [Banner]  #############################################################
+2019-04-16 15:16:21.323 INFO  [6] [Banner]  
+2019-04-16 15:16:21.324 INFO  [6] [Licensing] JRebel is running with the following internal licensing configurationLicenseUtils:
+2019-04-16 15:16:21.326 INFO  [6] [Licensing]     License valid? true
+2019-04-16 15:16:21.328 INFO  [6] [Licensing]     License type: ENTERPRISE
+2019-04-16 15:16:21.329 INFO  [6] [Licensing]     License source: LICENSE_SERVER
+2019-04-16 15:16:21.329 INFO  [6] [Licensing]     License valid from: 2019-04-16
+2019-04-16 15:16:21.329 INFO  [6] [Licensing]     License valid until: 2019-10-13
+2019-04-16 15:16:21.329 INFO  [6] [Licensing] JRebel version: 2019.1.0
+2019-04-16 15:16:21.330 INFO  [6] [Licensing] Java version: 1.8.0_181-b13, name: Java HotSpot(TM) 64-Bit Server VM, info: mixed mode, arch: amd64
+2019-04-16 15:16:21.361 INFO  [0] [Core] Starting plugin org.zeroturnaround.javarebel.integration.IntegrationPlugin from /home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar in null
+2019-04-16 15:16:21.402 INFO  [0] [Introspector] Did we find java.beans.Introspector.BEANINFO_CACHE: false
+2019-04-16 15:16:21.403 INFO  [0] [Introspector] Did we find com.sun.beans.AppContext.contexts: false
+2019-04-16 15:16:21.408 INFO  [0] [Introspector] Did we find java.beans.ThreadGroupContext.contexts: true
+2019-04-16 15:16:21.409 INFO  [0] [Introspector] Did we find com.sun.beans.introspect.ClassInfo.CACHE: false
+2019-04-16 15:16:21.412 INFO  [0] [Core-SDK] Added reload listener org.zeroturnaround.javarebel.integration.IntegrationClassEventListener@79d3473e for all classes
+2019-04-16 15:16:21.413 INFO  [0] [Core-SDK] Added reload listener org.zeroturnaround.javarebel.integration.ide.IDECallbackClassEventListener@4dad0eed for all classes
+2019-04-16 15:16:21.584 INFO  [0] [Core-SDK] Added exclude filter for 'org.jboss.mx.loading.HeirarchicalLoaderRepository3$CacheClassLoader'
+2019-04-16 15:16:21.680 INFO  [0] [Core-SDK] Added exclude filter for 'net.sf.cglib.CodeGenTestCase$1'
+2019-04-16 15:16:21.721 INFO  [0] [Core-SDK] Added exclude filter for 'com.bea.security.OESIsolationClassLoader'
+2019-04-16 15:16:21.721 INFO  [0] [Core-SDK] Added exclude filter for 'scala.tools.nsc.util.ScalaClassLoader$URLClassLoader'
+2019-04-16 15:16:21.722 INFO  [0] [Core-SDK] Added exclude filter org.zeroturnaround.javarebel.integration.tcat.TcatClassLoaderFilter@dada335
+2019-04-16 15:16:21.738 INFO  [0] [Core-SDK] Added exclude filter for 'groovy.lang.GroovyClassLoader$InnerLoader'
+2019-04-16 15:16:21.806 INFO  [0] [Core] Starting plugin com.zeroturnaround.javarebel.gqv from /home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/jrebel.jar in null
+2019-04-16 15:16:21.823 INFO  [0] [Core] sun.misc.Launcher$AppClassLoader@18b4aac2 found resource: 'org/zeroturnaround/jrebel/jaxb/java6/JAXBJava6Plugin.class' from 'jar:file:/tmp/jrebel-temp/ver-c62900d7/plugins/jaxb-java6-jr-plugin-2019.1.0.jar!/org/zeroturnaround/jrebel/jaxb/java6/JAXBJava6Plugin.class'.
+2019-04-16 15:16:21.823 INFO  [0] [Core] Starting plugin org.zeroturnaround.jrebel.jaxb.java6.JAXBJava6Plugin from /tmp/jrebel-temp/ver-c62900d7/plugins/jaxb-java6-jr-plugin-2019.1.0.jar in sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-04-16 15:16:21.839 INFO  [0] [Core] sun.misc.Launcher$AppClassLoader@18b4aac2 found resource: 'org/zeroturnaround/jrebel/stats/id/container/ContainerIdentifierPlugin.class' from 'jar:file:/tmp/jrebel-temp/ver-c62900d7/plugins/jr-container-identifier-2019.1.0.jar!/org/zeroturnaround/jrebel/stats/id/container/ContainerIdentifierPlugin.class'.
+2019-04-16 15:16:21.839 INFO  [0] [Core] Starting plugin org.zeroturnaround.jrebel.stats.id.container.ContainerIdentifierPlugin from /tmp/jrebel-temp/ver-c62900d7/plugins/jr-container-identifier-2019.1.0.jar in sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-04-16 15:16:21.952 INFO  [0] [Core] VM arguments: 
+-Drebel.base=/home/dabai/.jrebel
+-Drebel.env.ide.plugin.version=2019.1.0
+-Drebel.env.ide.version=2019.1
+-Drebel.env.ide.product=IU
+-Drebel.env.ide=intellij
+-Drebel.notification.url=http://localhost:17434
+-agentpath:/home/dabai/.IntelliJIdea2019.1/config/plugins/jr-ide-idea/lib/jrebel6/lib/libjrebel64.so
+-Xmx200M
+-Xms200m
+-javaagent:/home/dabai/Desktop/java/IDEA/idea-IU-183.4886.37/lib/idea_rt.jar=27475:/home/dabai/Desktop/java/IDEA/idea-IU-183.4886.37/bin
+-Dfile.encoding=UTF-8
+2019-04-16 15:16:21.953 INFO  [0] [Core-SDK] Added reload listener com.zeroturnaround.javarebel.po@5a8d676e for all classes
+2019-04-16 15:16:21.984 INFO  [0] [InstrumentationInit] Invoking delayed agent: com.intellij.rt.execution.application.AppMainV2$Agent.premain(27475:/home/dabai/Desktop/java/IDEA/idea-IU-183.4886.37/bin)
+2019-04-16 15:16:22.017 INFO  [0] [ClassChangeDetector] root: '/media/dabai/000BAD420009625A/study/deepin/java/demos/demo7/target/classes/' for 'com.zeroturnaround.reload.a@43fd77d8'.
+2019-04-16 15:16:22.018 INFO  [0] [Core-SDK] Added file listener org.zeroturnaround.javarebel.integration.util.WeakUtil$WeakFileEventListener@5a90fcaa[com.zeroturnaround.reload.c@1805ec96] for /media/dabai/000BAD420009625A/study/deepin/java/demos/demo7/target/classes with result true
+2019-04-16 15:16:22.019 INFO  [0] [Transform] sun.misc.Launcher$AppClassLoader@18b4aac2 instrumented class 'com/netty/demo/demo2/server/Server' from 'file:/media/dabai/000BAD420009625A/study/deepin/java/demos/demo7/target/classes/com/netty/demo/demo2/server/Server.class'.
+2019-04-16 15:16:22.026 INFO  [0] [Metrics] JVM language: languages.java detected.
+2019-04-16 15:16:22.068 INFO  [0] [Core] sun.misc.Launcher$AppClassLoader@18b4aac2 found resource: 'com/netty/demo/demo2/server/Server.class' from 'file:/media/dabai/000BAD420009625A/study/deepin/java/demos/demo7/target/classes/com/netty/demo/demo2/server/Server.class'.
+2019-04-16 15:16:22.072 INFO  [0] [Core] Main JAR: null
+2019-04-16 15:16:22.072 INFO  [0] [Core] Main class: com.netty.demo.demo2.server.Server
+2019-04-16 15:16:22.073 INFO  [0] [Core] Arguments: []
+2019-04-16 15:16:22.084 INFO  [0] [Remoting] initJetty
+2019-04-16 15:16:22.084 INFO  [0] [Remoting] Remoting port is configured to -1
+2019-04-16 15:16:22.105 INFO  [7] [Core] Started logging in thread: rebel-disk-info daemon=true
+2019-04-16 15:16:22.106 INFO  [7] [DiskInfo] lsblk:
+NAME   KNAME FSTYPE MOUNTPOINT                    UUID                                 MODEL              SIZE ROTA TYPE
+sda    sda                                                                             WDC WD5000LPCX-7 465.8G    1 disk
+└─sda1 sda1  ntfs   /media/dabai/000BAD420009625A 000BAD420009625A                                      465.8G    1 part
+sdb    sdb                                                                             Samsung SSD 850  232.9G    0 disk
+├─sdb1 sdb1  ntfs   /media/dabai/00003C2800005998 00003C2800005998                                      132.2G    0 part
+└─sdb2 sdb2  ext4   /                             b48a8195-24e2-417b-84e7-b4b28dac1fec                  100.7G    0 part
+
+2019-04-16 15:16:22.119 INFO  [7] [DiskInfo] mount:
+sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
+proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)
+udev on /dev type devtmpfs (rw,nosuid,relatime,size=5428172k,nr_inodes=1357043,mode=755)
+devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs on /run type tmpfs (rw,nosuid,noexec,relatime,size=1090788k,mode=755)
+/dev/sdb2 on / type ext4 (rw,relatime,data=ordered)
+securityfs on /sys/kernel/security type securityfs (rw,nosuid,nodev,noexec,relatime)
+tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev)
+tmpfs on /run/lock type tmpfs (rw,nosuid,nodev,noexec,relatime,size=5120k)
+tmpfs on /sys/fs/cgroup type tmpfs (ro,nosuid,nodev,noexec,mode=755)
+cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+cgroup on /sys/fs/cgroup/systemd type cgroup (rw,nosuid,nodev,noexec,relatime,xattr,name=systemd)
+pstore on /sys/fs/pstore type pstore (rw,nosuid,nodev,noexec,relatime)
+bpf on /sys/fs/bpf type bpf (rw,nosuid,nodev,noexec,relatime,mode=700)
+cgroup on /sys/fs/cgroup/cpu,cpuacct type cgroup (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)
+cgroup on /sys/fs/cgroup/devices type cgroup (rw,nosuid,nodev,noexec,relatime,devices)
+cgroup on /sys/fs/cgroup/perf_event type cgroup (rw,nosuid,nodev,noexec,relatime,perf_event)
+cgroup on /sys/fs/cgroup/memory type cgroup (rw,nosuid,nodev,noexec,relatime,memory)
+cgroup on /sys/fs/cgroup/blkio type cgroup (rw,nosuid,nodev,noexec,relatime,blkio)
+cgroup on /sys/fs/cgroup/pids type cgroup (rw,nosuid,nodev,noexec,relatime,pids)
+cgroup on /sys/fs/cgroup/hugetlb type cgroup (rw,nosuid,nodev,noexec,relatime,hugetlb)
+cgroup on /sys/fs/cgroup/net_cls,net_prio type cgroup (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)
+cgroup on /sys/fs/cgroup/freezer type cgroup (rw,nosuid,nodev,noexec,relatime,freezer)
+cgroup on /sys/fs/cgroup/rdma type cgroup (rw,nosuid,nodev,noexec,relatime,rdma)
+cgroup on /sys/fs/cgroup/cpuset type cgroup (rw,nosuid,nodev,noexec,relatime,cpuset)
+systemd-1 on /proc/sys/fs/binfmt_misc type autofs (rw,relatime,fd=27,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=15072)
+debugfs on /sys/kernel/debug type debugfs (rw,relatime)
+mqueue on /dev/mqueue type mqueue (rw,relatime)
+fusectl on /sys/fs/fuse/connections type fusectl (rw,relatime)
+configfs on /sys/kernel/config type configfs (rw,relatime)
+hugetlbfs on /dev/hugepages type hugetlbfs (rw,relatime,pagesize=2M)
+binfmt_misc on /proc/sys/fs/binfmt_misc type binfmt_misc (rw,relatime)
+tmpfs on /run/user/1000 type tmpfs (rw,nosuid,nodev,relatime,size=1090784k,mode=700,uid=1000,gid=1000)
+gvfsd-fuse on /run/user/1000/gvfs type fuse.gvfsd-fuse (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+/dev/sdb1 on /media/dabai/00003C2800005998 type fuseblk (rw,nosuid,nodev,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096,uhelper=udisks2)
+/dev/sda1 on /media/dabai/000BAD420009625A type fuseblk (rw,nosuid,nodev,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096,uhelper=udisks2)
+/dev/fuse on /run/user/1000/doc type fuse (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+
+2019-04-16 15:16:22.161 INFO  [8] [Core] Started logging in thread: rebel-container-identifier daemon=true
+2019-04-16 15:16:22.161 INFO  [8] [ContainerIdentifier] Container: UNKNOWN 
+2019-04-16 15:16:22.164 INFO  [8] [ContainerIdentifier] Container identification took 89 millis
+2019-04-16 15:16:22.813 INFO  [0] [Transform] sun.misc.Launcher$AppClassLoader@18b4aac2 instrumented class 'com/netty/demo/demo2/server/ServerInitializer' from 'file:/media/dabai/000BAD420009625A/study/deepin/java/demos/demo7/target/classes/com/netty/demo/demo2/server/ServerInitializer.class'.
+2019-04-16 15:16:22.897 INFO  [0] [Core-SDK] Class 'java/util/concurrent/atomic/AtomicReferenceArray' processed by 'com.zeroturnaround.javarebel.cn@639bf405'.
+2019-04-16 15:16:23.105 INFO  [9] [Core] Started logging in thread: rebel-leaseManager-1 daemon=true
+2019-04-16 15:16:23.107 WARN  [9] [Licensing-LS] Connection failed with HTTP 404 (Not Found).
+2019-04-16 15:16:23.115 INFO  [9] [Licensing] Licensing exception: LicensingMessage{description='Connection failed with HTTP 404 (Not Found).', callToAction='', exceptionMessage='null', link='null'}
+2019-04-16 15:16:23.154 WARN  [9] [Licensing-LS] Connection failed with HTTP 404 (Not Found).
+2019-04-16 15:16:23.157 INFO  [9] [Licensing] Licensing exception: LicensingMessage{description='Connection failed with HTTP 404 (Not Found).', callToAction='', exceptionMessage='null', link='null'}
+2019-04-16 15:16:23.158 INFO  [9] [Licensing-LS] Loaded client features for url: http://139.199.89.239:1008 -> []
+2019-04-16 15:16:23.937 INFO  [10] [Core] Started logging in thread: rebel-update-notifier-thread daemon=true
+2019-04-16 15:16:23.943 INFO  [10] [Core-Stat] Server response: '2019.1.1'.
+2019-04-16 15:16:23.943 INFO  [10] [Core-Stat] Deleted jrebel-version
+2019-04-16 15:16:23.944 INFO  [10] [Core-Stat] Written jrebel-version to /home/dabai/.jrebel/jrebel-version
+2019-04-16 15:16:39.092 INFO  [11] [Core] Started logging in thread: rebel-fsnotify-ShutdownOnTermination daemon=true
+2019-04-16 15:16:39.093 INFO  [11] [IntelliJFSNotify] FSNotifier terminated with: 130 on java.lang.UNIXProcess@4d7fc87a
+2019-04-16 15:16:39.093 INFO  [12] [Core] Started logging in thread: rebel-cache-writer daemon=true
+2019-04-16 15:16:39.093 INFO  [12] [ClassCache] Flushing changes: index 105392 and data size: 5352348
+2019-04-16 15:16:39.098 INFO  [13] [Core] Started logging in thread: Thread-2 daemon=false
+2019-04-16 15:16:39.098 INFO  [13] [IntelliJFSNotify] destroy
+2019-04-16 15:16:39.101 INFO  [14] [Core] Started logging in thread: Thread-0 daemon=false
+2019-04-16 15:16:39.102 INFO  [14] [StartupTracker] premain called total=0 since last=0
+2019-04-16 15:16:39.102 INFO  [14] [StartupTracker] startup preInitialize start total=180 since last=180
+2019-04-16 15:16:39.102 INFO  [14] [StartupTracker] startup preInitialize done total=1017 since last=837
+2019-04-16 15:16:39.102 INFO  [14] [StartupTracker] preinit start total=1040 since last=23
+2019-04-16 15:16:39.106 INFO  [14] [StartupTracker] preinit done total=1082 since last=42
+2019-04-16 15:16:39.107 INFO  [14] [StartupTracker] fastpath start total=1099 since last=17
+2019-04-16 15:16:39.107 INFO  [14] [StartupTracker] fastpath done total=1185 since last=86
+2019-04-16 15:16:39.108 INFO  [14] [StartupTracker] startup initialize start total=1185 since last=0
+2019-04-16 15:16:39.108 INFO  [14] [StartupTracker] metrics initialize start total=1557 since last=372
+2019-04-16 15:16:39.108 INFO  [14] [StartupTracker] metrics initialize done total=1617 since last=60
+2019-04-16 15:16:39.108 INFO  [14] [StartupTracker] licensing initialize start total=2549 since last=932
+2019-04-16 15:16:39.108 INFO  [14] [StartupTracker] licensing initialize end total=2679 since last=130
+2019-04-16 15:16:39.108 INFO  [14] [StartupTracker] startup initialize done total=3576 since last=897
+2019-04-16 15:16:39.109 INFO  [14] [StartupTracker] premain done total=3619 since last=43
+2019-04-16 15:16:39.109 INFO  [14] [StartupTracker] before main start total=3681 since last=62
+2019-04-16 15:16:39.110 INFO  [14] [StartupTracker] before main done total=3704 since last=23
+2019-04-16 15:16:39.111 INFO  [14] [StartupTracker] shutdown total=20714 since last=17010
+2019-04-16 15:16:39.111 INFO  [15] [Core] Started logging in thread: Thread-7 daemon=false
+2019-04-16 15:16:39.112 INFO  [15] [Core] JVM shutdown, disabling class reloading
+2019-04-16 15:16:39.116 INFO  [16] [Core] Started logging in thread: Thread-8 daemon=false
+2019-04-16 15:16:39.116 WARN  [16] [Startup] not instrumented class java.util.IdentityHashMap$1 loaded with: null RM: null Final: false
+2019-04-16 15:16:39.123 WARN  [16] [Startup] topmost class in hierarchy is not instrumented class java.nio.file.attribute.FileTime loaded with: null
