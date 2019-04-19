@@ -1,11 +1,10 @@
-package com.netty.demo.demo8;
+package com.netty.demo.demo9;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
-import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.http.HttpObjectAggregator;
 import io.netty.handler.codec.http.HttpServerCodec;
 import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
@@ -14,66 +13,65 @@ import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 import io.netty.handler.stream.ChunkedWriteHandler;
 
-import java.time.LocalDateTime;
+import java.util.logging.Level;
 
 /**
  * @program: demo7
  * @description:
  * @author: liuwei
- * @create: 2019-04-19 14:23
+ * @create: 2019-04-19 16:47
  **/
 public class Server {
 
     public static void main(String[] args) throws InterruptedException {
-        EventLoopGroup bossEventLoopGroup = new NioEventLoopGroup();
-        EventLoopGroup workerEventLoopGroup = new NioEventLoopGroup();
+        EventLoopGroup bossLoopGroup = new NioEventLoopGroup();
+        EventLoopGroup workerLoopGroup = new NioEventLoopGroup();
 
         ChannelFuture future =
-                new ServerBootstrap().channel(NioServerSocketChannel.class).group(bossEventLoopGroup,
-                        workerEventLoopGroup).handler(new LoggingHandler(LogLevel.INFO)).childHandler(new ChannelInitializer<SocketChannel>() {
+                new ServerBootstrap().group(bossLoopGroup, workerLoopGroup).channel(NioServerSocketChannel.class).handler(new LoggingHandler(LogLevel.INFO))
+                .childHandler(new ChannelInitializer<SocketChannel>() {
                     @Override
                     protected void initChannel(SocketChannel ch) throws Exception {
                         ChannelPipeline pipeline = ch.pipeline();
 
+//                        ---------------------------------------------
                         pipeline.addLast(new HttpServerCodec());
                         pipeline.addLast(new ChunkedWriteHandler());
-                        pipeline.addLast(new HttpObjectAggregator(8192));
+                        pipeline.addLast(new HttpObjectAggregator(8097));
                         pipeline.addLast(new WebSocketServerProtocolHandler("/ws"));
+//                        ---------------------------------------------
                         pipeline.addLast(new SimpleChannelInboundHandler<TextWebSocketFrame>() {
                             @Override
                             protected void channelRead0(ChannelHandlerContext ctx, TextWebSocketFrame msg) throws Exception {
-                                System.out.println("收到消息:" + msg.text());
-
-                                ctx.channel().writeAndFlush(new TextWebSocketFrame("服务器时间:" + LocalDateTime.now()));
+                                String text = msg.text();
+                                System.out.println("服务端接受到信息:" + text);
+                                ctx.channel().writeAndFlush(new TextWebSocketFrame(ctx.channel().remoteAddress().toString()));
                             }
 
                             @Override
                             public void handlerAdded(ChannelHandlerContext ctx) throws Exception {
-                                System.out.println("Server.handlerAdded:" + ctx.channel().id().asShortText());
-                                System.out.println("Server.handlerAdded:" + ctx.channel().id().asLongText());
+                                System.out.println("新连接添加:" + ctx.channel().id().asLongText());
+                                ctx.channel().writeAndFlush("连接成功");
                             }
 
                             @Override
                             public void handlerRemoved(ChannelHandlerContext ctx) throws Exception {
-                                System.out.println("Server.handlerRemoved:" + ctx.channel().id());
-                                ctx.close();
+                                System.out.println("连接断开:" + ctx.channel().id());
+                                ctx.channel().writeAndFlush(new TextWebSocketFrame("服务器发送连接断开信息"));
                             }
-
 
                             @Override
                             public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
-                                System.out.println("发生错误:" + cause);
-                                System.out.println("发生错误:" + cause.getMessage());
-                                ctx.close();
+                                System.out.println("发生异常:" + cause);
+                                ctx.channel().close();
                             }
                         });
                     }
                 }).bind(8080).sync();
         future.channel().closeFuture().sync();
 
-
-        bossEventLoopGroup.shutdownGracefully();
-        workerEventLoopGroup.shutdownGracefully();
+        bossLoopGroup.shutdownGracefully();
+        workerLoopGroup.shutdownGracefully();
     }
 
 }

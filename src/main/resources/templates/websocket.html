@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <textarea  rows="15" cols="30"></textarea>
+    <button id="send">发送数据</button>
+    <button onclick="webSocket.close()">关闭连接</button>
+
+    <h1>服务端返回</h1>
+    <textarea id="responseTextare" rows="15" cols="50"></textarea>
+
+    <script>
+        var webSocket = new WebSocket("ws://127.0.0.1:8080/ws");
+
+        var send = document.querySelector('#send');
+        send.onclick = function(){
+            webSocket.send(document.querySelector('textarea').value)
+        }
+
+        webSocket.onmessage = function(env){
+            document.querySelector("#responseTextare").value += env.data+"\n"
+        }
+
+        webSocket.onclose = function (env) {
+            console.log('onclose:' + env);
+        }
+    </script>
+
+
+</body>
+</html>
