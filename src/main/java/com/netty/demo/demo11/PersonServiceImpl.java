@@ -19,9 +19,9 @@ public class PersonServiceImpl implements PersonService.Iface {
         System.out.println("PersonServiceImpl.getPersonByUsername.username:" + username);
         Person person = new Person();
         person.setUsername(username);
-        if (true) {
-            throw new DataException("服务器颠了", ".....", "2018-1-1");
-        }
+//        if (true) {
+//            throw new DataException("服务器颠了", ".....", "2018-1-1");
+//        }
         return person;
     }
 

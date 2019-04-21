@@ -1,4 +1,5 @@
 namespace java com.netty.demo.demo11.thrift
+namespace py com.netty.demo.demo11.thrift
 
 typedef i16 short
 typedef i32 int
