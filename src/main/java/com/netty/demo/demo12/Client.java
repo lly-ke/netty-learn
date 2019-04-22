@@ -1,8 +1,8 @@
 package com.netty.demo.demo12;
 
-import com.netty.demo.grpc.MyRequest;
-import com.netty.demo.grpc.MyResponse;
-import com.netty.demo.grpc.StudentServiceGrpc;
+import com.netty.demo.demo12.grpc.MyRequest;
+import com.netty.demo.demo12.grpc.MyResponse;
+import com.netty.demo.demo12.grpc.StudentServiceGrpc;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 
@@ -22,8 +22,9 @@ public class Client {
 
         StudentServiceGrpc.StudentServiceBlockingStub studentServiceBlockingStub = StudentServiceGrpc.newBlockingStub(managedChannel);
         MyResponse response = studentServiceBlockingStub.getRealNameByUsername(MyRequest.newBuilder().setUsername("爱的哇多").build());
-
-        System.out.println("response = " + response.getRealname());
+        for (int i = 0; i < 100; i++) {
+            System.out.println("response = " + response.getRealname());
+        }
     }
 
 }

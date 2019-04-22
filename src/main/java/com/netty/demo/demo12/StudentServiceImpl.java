@@ -1,8 +1,8 @@
 package com.netty.demo.demo12;
 
-import com.netty.demo.grpc.MyRequest;
-import com.netty.demo.grpc.MyResponse;
-import com.netty.demo.grpc.StudentServiceGrpc;
+import com.netty.demo.demo12.grpc.MyRequest;
+import com.netty.demo.demo12.grpc.MyResponse;
+import com.netty.demo.demo12.grpc.StudentServiceGrpc;
 import io.grpc.stub.StreamObserver;
 
 import java.util.UUID;
@@ -21,7 +21,5 @@ public class StudentServiceImpl extends StudentServiceGrpc.StudentServiceImplBas
         responseObserver.onNext(MyResponse.newBuilder().setRealname(request.getUsername() + UUID.randomUUID().toString()).build());
         responseObserver.onCompleted();
     }
-
-
 
 }
