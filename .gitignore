@@ -8,5 +8,5 @@
 out
 gen
 
-grpc-java
+grpc-java/*
 target
