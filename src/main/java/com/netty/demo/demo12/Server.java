@@ -11,9 +11,9 @@ import java.io.IOException;
  * @create: 2019-04-22 15:28
  **/
 public class Server {
-
     public static void main(String[] args) throws IOException, InterruptedException {
-        io.grpc.Server server = ServerBuilder.forPort(8080).addService(new StudentServiceImpl()).build().start();
+        ServerBuilder<?> serverBuilder = ServerBuilder.forPort(8080);
+        io.grpc.Server server = serverBuilder.addService(new StudentServiceImpl()).build().start();
         System.out.println("服务器8080端口");
         Runtime.getRuntime().addShutdownHook(new Thread() {
             @Override
