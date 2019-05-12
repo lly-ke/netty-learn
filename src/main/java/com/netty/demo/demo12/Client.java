@@ -10,6 +10,7 @@ import io.grpc.stub.StreamObservers;
 import javax.xml.bind.ValidationEvent;
 import java.util.Iterator;
 import java.util.Scanner;
+import java.util.UUID;
 
 /**
  * @program: demo7
@@ -49,36 +50,60 @@ public class Client {
 
 
         System.out.println("---------------客户端流式数据       start----------------");
+//        StreamObserver<StudentResponseList> streamObserver = new StreamObserver<StudentResponseList>() {
+//
+//            @Override
+//            public void onNext(StudentResponseList value) {
+//                value.getStudentResponseList().forEach((response) -> {
+//                    System.out.println("response.getAge() = " + response.getAge());
+//                });
+//            }
+//
+//            @Override
+//            public void onError(Throwable t) {
+//                System.out.println("error client:" + t.getMessage() + ", time=" +  System.nanoTime());
+//            }
+//
+//            @Override
+//            public void onCompleted() {
+//                System.out.println("completed....");
+//            }
+//        };
+//        StreamObserver<StudentRequest> requestStreamObserver = studentServiceStub.getStudentWrapperByAges(streamObserver);
+//
+//        for (int i = 0; i < 10; i++) {
+//            requestStreamObserver.onNext(StudentRequest.newBuilder().setAge(i).build());
+//
+//        }
+//        requestStreamObserver.onCompleted();//客户端主动断开连接
+        System.out.println("---------------客户端流式数据     end-------------------------");
 
-        StreamObserver<StudentResponseList> streamObserver = new StreamObserver<StudentResponseList>() {
 
+        System.out.println("---------------客户端流式服务端流式数据数据     start-------------------------");
+        StreamObserver<StreamRequest> streamRequestStreamObserver = studentServiceStub.biTask(new StreamObserver<StreamResponse>() {
             @Override
-            public void onNext(StudentResponseList value) {
-                value.getStudentResponseList().forEach((response) -> {
-                    System.out.println("response.getAge() = " + response.getAge());
-                });
+            public void onNext(StreamResponse value) {
+                System.out.println(value.getResponseInfo());
             }
 
             @Override
             public void onError(Throwable t) {
-                System.out.println("error client:" + t.getMessage() + ", time=" +  System.nanoTime());
+                System.out.println(t.getMessage());
             }
 
             @Override
             public void onCompleted() {
-                System.out.println("completed....");
+                System.out.println("completed..... ");
             }
-        };
-        StreamObserver<StudentRequest> requestStreamObserver = studentServiceStub.getStudentWrapperByAges(streamObserver);
-
+        });
         for (int i = 0; i < 10; i++) {
-            int i1 = new Scanner(System.in).nextInt();
-            requestStreamObserver.onNext(StudentRequest.newBuilder().setAge(i1).build());
-
+                streamRequestStreamObserver.onNext(StreamRequest.newBuilder().setRequestInfo(UUID.randomUUID().toString()).build());
+                Thread.sleep(1000);
         }
-        requestStreamObserver.onCompleted();//客户端主动断开连接
-        System.out.println("---------------客户端流式数据     end-------------------------");
 
+        streamRequestStreamObserver.onCompleted();
+
+        System.out.println("---------------客户端流式服务端流式数据数据     end-------------------------");
         //客户端流式数据main需要阻塞不然jvm会退出
         Thread.sleep(Long.MAX_VALUE);
     }

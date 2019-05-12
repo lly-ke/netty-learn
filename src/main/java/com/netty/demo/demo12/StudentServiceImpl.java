@@ -37,6 +37,8 @@ public class StudentServiceImpl extends StudentServiceGrpc.StudentServiceImplBas
         responseObserver.onCompleted();//服务端主动断开连接
     }
 
+
+
     @Override
     public StreamObserver<StudentRequest> getStudentWrapperByAges(StreamObserver<StudentResponseList> responseObserver) {
         return new StreamObserver<StudentRequest>() {
@@ -59,6 +61,30 @@ public class StudentServiceImpl extends StudentServiceGrpc.StudentServiceImplBas
                         .newBuilder().addStudentResponse(StudentResponse.newBuilder().setAge(2).build()).build());
                 //该条数据不会返回给客户端
                 responseObserver.onCompleted();//服务端也断开连接
+            }
+        };
+    }
+
+    @Override
+    public StreamObserver<StreamRequest> biTask(StreamObserver<StreamResponse> responseObserver) {
+        return new StreamObserver<StreamRequest>() {
+            @Override
+            public void onNext(StreamRequest value) {
+                System.out.println(value.getRequestInfo());
+
+                responseObserver.onNext(StreamResponse.newBuilder().setResponseInfo(UUID.randomUUID().toString()).buildPartial());
+
+
+            }
+
+            @Override
+            public void onError(Throwable t) {
+                System.out.println(t.getMessage());
+            }
+
+            @Override
+            public void onCompleted() {
+                responseObserver.onCompleted();
             }
         };
     }
