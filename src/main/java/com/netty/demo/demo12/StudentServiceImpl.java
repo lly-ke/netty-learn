@@ -34,7 +34,7 @@ public class StudentServiceImpl extends StudentServiceGrpc.StudentServiceImplBas
                 .build();
 
         responseObserver.onNext(studentResponse);
-        responseObserver.onCompleted();
+        responseObserver.onCompleted();//服务端主动断开连接
     }
 
     @Override
@@ -47,14 +47,18 @@ public class StudentServiceImpl extends StudentServiceGrpc.StudentServiceImplBas
 
             @Override
             public void onError(Throwable t) {
-                System.out.println("发生错误:" + t.getMessage());
+                System.out.println("server 发生错误:" + t.getMessage() + ", time=" +  System.nanoTime());
             }
 
             @Override
-            public void onCompleted() {
-                StudentResponse studentResponse = StudentResponse.newBuilder().setName("张三").setAge(12).setCity("哈扎克").build();
-
-                System.out.println("完成响应");
+            public void onCompleted() {//服务端接受来自客户端的断开请求调用
+                System.out.println("responseObserver.getClass() = " + responseObserver.getClass());
+                responseObserver.onNext(StudentResponseList
+                        .newBuilder().addStudentResponse(StudentResponse.newBuilder().setAge(1).build()).build());
+                responseObserver.onNext(StudentResponseList
+                        .newBuilder().addStudentResponse(StudentResponse.newBuilder().setAge(2).build()).build());
+                //该条数据不会返回给客户端
+                responseObserver.onCompleted();//服务端也断开连接
             }
         };
     }
